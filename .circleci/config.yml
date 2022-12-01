@@ -4,5 +4,5 @@ jobs:
     unit-test:
         docker:
             - image: cimg/node:18
-    steps:
-        - run: yarn test
+		steps:
+			- run: yarn test
