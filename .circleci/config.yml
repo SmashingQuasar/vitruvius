@@ -6,3 +6,7 @@ jobs:
             - image: cimg/node:18
         steps:
             - run: yarn test
+workflows:
+    unit-testing:
+        jobs:
+            - unit-test
