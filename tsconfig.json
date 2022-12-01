@@ -1,0 +1,40 @@
+{
+	"compilerOptions": {
+		"outDir": "build",
+		"allowJs": false,
+		"target": "ESNext",
+		"alwaysStrict": true,
+		"removeComments": true,
+		"strict": true,
+		"charset": "UTF-8",
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"strictNullChecks": true,
+		"strictFunctionTypes": true,
+		"allowUnusedLabels": false,
+		"module": "NodeNext",
+		"allowUnreachableCode": false,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"newLine": "LF",
+		"moduleResolution": "NodeNext",
+		"useUnknownInCatchVariables": true,
+		"lib": ["ESNext"],
+		"noUncheckedIndexedAccess": true,
+		"strictPropertyInitialization": true,
+		"strictBindCallApply": true,
+		"forceConsistentCasingInFileNames": true,
+		"listFiles": false,
+		"listEmittedFiles": true,
+		"noErrorTruncation": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitOverride": true,
+		"noPropertyAccessFromIndexSignature": true,
+		"pretty": true,
+		"sourceMap": true
+	},
+	"include": [
+		"./"
+	]
+}

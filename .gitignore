@@ -1,0 +1,21 @@
+## Project specific ###
+
+certificates/
+
+### Node.JS ###
+
+node_modules/
+
+### Unit testing ###
+
+coverage/
+
+### Yarn specific ###
+
+.yarn/*
+.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
