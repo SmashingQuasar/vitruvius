@@ -1,8 +1,8 @@
 version: 2.1
 
 jobs:
-	unit-test:
-		docker:
-			- image: cimg/node:18
-	steps:
-		- run: yarn test
+    unit-test:
+        docker:
+            - image: cimg/node:18
+    steps:
+        - run: yarn test
