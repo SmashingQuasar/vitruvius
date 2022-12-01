@@ -2,9 +2,11 @@ version: 2.1
 
 jobs:
     unit-test:
+        working_directory: ~/app
         docker:
             - image: cimg/node:18.12
         steps:
+            - checkout
             - run: yarn test
 workflows:
     unit-testing:
